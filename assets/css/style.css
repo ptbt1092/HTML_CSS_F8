@@ -359,6 +359,7 @@ html{
     align-items: center;
     justify-content: center;
     display: none;
+    z-index: 2;
 }
 
 .modal-container{
@@ -366,6 +367,7 @@ html{
     width: 900px;
     max-width: 95%;
     animation: modalFadeIn ease 0.5s;
+    
 }
 
 .modal-close{
@@ -513,8 +515,4 @@ html{
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-/* Tablet */
-@media (min-width:740px) and (max-width:1023px){
 }

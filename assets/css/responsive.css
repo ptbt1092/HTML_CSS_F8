@@ -8,6 +8,10 @@
         padding: 5px 41px;
     }
 
+    .modal-container{
+        width: 80%;
+    }
+
     .modal-close{
         font-size: 20px;
     }
@@ -83,6 +87,10 @@
     }
     .mobile-menu-icon{
         display: block;
+    }
+
+    .modal-container{
+        width: 80%;
     }
 
     .modal-close{
